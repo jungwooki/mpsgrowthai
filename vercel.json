@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "functions": {
+    "server.py": {
+      "maxDuration": 300,
+      "excludeFiles": "{.env,.env.*,.venv/**,artifacts/**,tests/**,docs/**,**/__pycache__/**,**/.DS_Store}"
+    }
+  },
+  "ignoreCommand": "if [ -f scripts/check_references.cjs ]; then node scripts/check_references.cjs; else echo \"Skip: reference deployment check missing\"; exit 0; fi"
+}

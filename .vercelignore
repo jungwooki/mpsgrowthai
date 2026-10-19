@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+.venv/
+.git/
+.pytest_cache/
+**/__pycache__/
+**/.DS_Store
+artifacts/
+tests/
+docs/
+
+# Local conversation notes and runtime data
+ing.txt
+private/
+*.sqlite
+*.sqlite3
+*.db

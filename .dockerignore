@@ -1,0 +1,12 @@
+**
+!requirements.txt
+!server.py
+!index.html
+!workspace.html
+!headquarters.html
+!backend/
+!backend/*.py
+!frontend/
+!frontend/**
+!data/
+!data/**

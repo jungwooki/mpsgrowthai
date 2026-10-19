@@ -1,0 +1,22 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+data/sources/
+artifacts/
+
+.DS_Store
+.vercel/
+.env.*
+!.env.example
+
+.vercel
+
+.env.centers.local
+
+# Local conversation notes and runtime data
+ing.txt
+private/
+*.sqlite
+*.sqlite3
+*.db
