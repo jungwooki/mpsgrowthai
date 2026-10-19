@@ -1,6 +1,7 @@
 > **비공개 대용량 업로드 1단계:** 이미지 최대 12개·파일당 20MiB·전체 240MiB의 S3 직접 업로드 코드를 추가했습니다. 저장소 설정 및 배포 전에는 기존 제한이 유지됩니다. [설정·검증 안내](docs/private-upload-setup.md)
 
 > **mps-growth 독립 저장소:** https://github.com/jungwooki/mpsgrowthai
+> 운영 사이트: https://growthai2026.vercel.app/ (로그인 필요, 2026-10-19 운영 검증 완료)
 > Python 3.12가 필요합니다. `시작.command`는 이 컴퓨터의 캐시 폴더에 실행 환경을 준비합니다.
 > GitHub에는 API 키·계정·참고자료 원본이 포함되지 않습니다. 온라인 운영에는 별도 환경변수와 원본 연결이 필요합니다.
 
